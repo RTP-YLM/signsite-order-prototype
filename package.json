@@ -1,0 +1,18 @@
+{
+  "name": "signsite-order-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive print-order storefront with a die-cut sticker yield calculator",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server.js",
+    "check": "html-validate index.html && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "html-validate": "^11.15.0"
+  }
+}
